@@ -1,0 +1,26 @@
+### Go ###
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_obj
+_test
+
+# Artifacts
+*.test
+*.prof
+*.cov
+*.log
+*.svg
+target/*
+
+# intellij
+*.iml
+*.idea
+.vscode
+vendor
+
+# generated code
+**/*_easyjson.go
